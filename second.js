@@ -11,7 +11,7 @@ const categories = (obj) => {
     categoriesObj.children = obj.result.categories[key].map((el, index) => {
       let childrenObj = {}
       childrenObj.children_value = Number(
-        `${categoriesObj.parent_value}.${index + 1}`
+        `${categoriesObj.parent_value}${index + 1}`
       )
       childrenObj.children_label = el
       childrenObj.parent_key = categoriesObj.parent_value
@@ -23,7 +23,5 @@ const categories = (obj) => {
 
   return finalArr
 }
-
-
 
 console.log(JSON.stringify(categories(categoriesResponse), null, ' '))
