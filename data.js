@@ -1,3 +1,4 @@
+// Исходник для первой задачи
 const brandsResponse = {
   result: {
     Brand1: {
@@ -143,6 +144,7 @@ const brandsResponse = {
   },
 }
 
+// Исходник для второй задачи
 const categoriesResponse = {
   result: {
     categories: {
