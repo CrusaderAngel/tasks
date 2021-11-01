@@ -1,0 +1,14 @@
+{
+  "name": "task",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "first": "node first.js",
+    "second": "node second.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
